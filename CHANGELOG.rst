@@ -2,6 +2,35 @@
 Changelog for package strands_morse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2014-10-30)
+------------------
+* There is no definition for the morse-blender-bundle for fedora yet.
+  Bloom complains:
+  Could not resolve rosdep key 'morse-blender-bundle' for distro 'heisenbug':
+  No definition of [morse-blender-bundle] for OS [fedora]
+  rosdep key : morse-blender-bundle
+  OS name    : fedora
+  OS version : heisenbug
+  Data: ubuntu:
+  precise:
+  - morse-blender-2.65-py-3.3
+  removing run_dependency for now.
+* Contributors: Christian Dondrup
+
+0.0.4 (2014-10-30)
+------------------
+* Merge pull request #76 from cdondrup/install
+  Adding install targets and dependencies
+* Added morse-blender-bundle to run dependencies.
+* Added topic_republisher as run_dependency
+* Added install targets
+* Merge pull request #72 from nilsbore/hydro-devel
+  [kth] Created a KTH simulator environment
+* Added a map generated with gmapping
+* Fixed cameras in a good position
+* First version of KTH simulator environment
+* Contributors: Christian Dondrup, Lars Kunze, Nils Bore
+
 0.0.3 (2014-08-21)
 ------------------
 * fixed rosdeps
