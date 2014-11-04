@@ -19,7 +19,7 @@ semanticcamera.properties(relative=True, cam_width=640, cam_height=480, cam_far=
 semanticcamera.add_interface('ros', topic= "/humancam", frame_id= "/head_xtion_rgb_optical_frame")
 
 # tum_kitchen
-robot.translate(x=2.5, y=3.2, z=0.0)
+robot.translate(x=2.5, y=3.2, z=0.1)
 rpose = Pose()
 robot.append(rpose)
 rpose.add_stream('ros', method="morse.middleware.ros.pose.TFPublisher", frame_id='/world', child_frame_id="/robot")
@@ -28,7 +28,7 @@ rpose.add_stream('ros', method="morse.middleware.ros.pose.TFPublisher", frame_id
 # The bateery state is published to /battery
 robot.battery.properties(DischargingRate=1.0)
 
-human=HumanStrands()
+human=Human()
 human.use_world_camera()
 human.translate(x=4.5, y=3.2, z=0.1)
 human.properties(Object = True)
