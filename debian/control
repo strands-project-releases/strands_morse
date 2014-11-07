@@ -1,0 +1,12 @@
+Source: ros-hydro-strands-morse
+Section: misc
+Priority: extra
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), libpcl-1.7-all-dev, python-opencv, ros-hydro-catkin, ros-hydro-cv-bridge, ros-hydro-message-filters, ros-hydro-opencv2, ros-hydro-pcl-ros, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Homepage: http://www.strands-project.eu
+Standards-Version: 3.9.2
+
+Package: ros-hydro-strands-morse
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all, python-opencv, ros-hydro-cv-bridge, ros-hydro-message-filters, ros-hydro-opencv2, ros-hydro-openni-wrapper, ros-hydro-pcl-ros, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-scitos-description, ros-hydro-scitos-msgs, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf, ros-hydro-topic-republisher
+Description: The strands_morse package
