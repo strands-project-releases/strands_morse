@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>strands_morse</name>
-  <version>0.0.7</version>
+  <version>0.0.8</version>
   <description>The strands_morse package</description>
 
   <maintainer email="marc@hanheide.net">Marc Hanheide</maintainer>
@@ -41,7 +41,7 @@
   <run_depend>libpcl-all</run_depend>
   <run_depend>tf</run_depend>
   <run_depend>message_filters</run_depend>
-  <!--<run_depend>morse-blender-bundle</run_depend>-->
+  <run_depend>morse-blender-bundle</run_depend>
   <run_depend>cv_bridge</run_depend>
   <run_depend>python-opencv</run_depend>
   <run_depend>opencv2</run_depend>
@@ -49,6 +49,7 @@
   <run_depend>rospy</run_depend>
   <run_depend>tf</run_depend>
   <run_depend>topic_republisher</run_depend>
+  <run_depend>scitos_2d_navigation</run_depend>
   <run_depend>scitos_msgs</run_depend>
   <run_depend>scitos_description</run_depend>
   <run_depend>openni_wrapper</run_depend>
