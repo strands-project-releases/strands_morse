@@ -2,6 +2,23 @@
 Changelog for package strands_morse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2014-12-19)
+------------------
+* Set run_depend for 14.04 STRANDS MORSE.
+* Set path for 14.04 package installed MORSE.
+* Switch to system python3.
+* Contributors: Chris Burbridge
+
+0.0.10 (2014-12-19)
+-------------------
+* Update opencv dependency for indigo.
+* indigo-0.0.9
+* Update changelog.
+* Set run_depend for 14.04 STRANDS MORSE.
+* Set path for 14.04 package installed MORSE.
+* Switch to system python3.
+* Contributors: Chris Burbridge
+
 0.0.8 (2014-11-07)
 ------------------
 * Merge pull request #89 from cdondrup/dependencies
@@ -261,8 +278,8 @@ Changelog for package strands_morse
 * updated roslaunch command for tum kitchen
 * added camera sensors (video, depth, semantic) to robot model
 * Merge pull request `#17 <https://github.com/strands-project/strands_morse/issues/17>`_ from strands-project/morse-config-bug
-  use /usr/bin/env to determine python3.3 location
-* use /usr/bin/env to determine python3.3 location
+  use /usr/bin/env to determine python3 location
+* use /usr/bin/env to determine python3 location
 * Merge pull request `#14 <https://github.com/strands-project/strands_morse/issues/14>`_ from strands-project/new-package-structure
   MAJOR refactoring of repository structure; cleaning up files;  new launch files ...
 * added command for rviz
