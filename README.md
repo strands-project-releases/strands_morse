@@ -1,3 +1,24 @@
+## strands_morse (indigo) - 0.0.15-0
+
+The packages in the `strands_morse` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_morse` on `Mon, 23 Mar 2015 11:43:14 -0000`
+
+The `strands_morse` package was released.
+
+Version of package(s) in repository `strands_morse`:
+- upstream repository: https://github.com/strands-project/strands_morse.git
+- release repository: https://github.com/strands-project-releases/strands_morse.git
+- rosdistro version: `0.0.14-0`
+- old version: `0.0.14-0`
+- new version: `0.0.15-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## strands_morse (indigo) - 0.0.14-0
 
 The packages in the `strands_morse` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_morse` on `Mon, 23 Mar 2015 08:27:06 -0000`
