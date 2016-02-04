@@ -19,12 +19,17 @@ Changelog for package strands_morse
 * Switch to system python3.
 * Contributors: Chris Burbridge
 
+0.1.8 (2016-02-04)
+------------------
+* removed illegal character
+* Contributors: Marc Hanheide
+
 0.1.7 (2016-02-04)
 ------------------
 * Merge pull request `#147 <https://github.com/strands-project/strands_morse/issues/147>`_ from cburbridge/patch-2
   Update simulated laser pose to match real robot.
 * Update simulated laser pose to match real robot.
-  Closes https://github.com/strands-project/strands_morse/issues/143.
+  Closes https://github.com/strands-project/strands_morse/issues/143.
 * Merge pull request `#146 <https://github.com/strands-project/strands_morse/issues/146>`_ from Jailander/move-base-arena
   topological map change
 * switching nodes in mb_test8
