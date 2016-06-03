@@ -19,6 +19,11 @@ Changelog for package strands_morse
 * Switch to system python3.
 * Contributors: Chris Burbridge
 
+0.1.12 (2016-06-03)
+-------------------
+* Added install target for tsc
+* Contributors: Nick Hawes
+
 0.1.11 (2016-06-01)
 -------------------
 
