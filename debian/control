@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-morse
+Section: misc
+Priority: extra
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, libpcl-1.7-all-dev, python-opencv, ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-message-filters, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://www.strands-project.eu
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-morse
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, libpcl-1.7-all, python-opencv, ros-indigo-cv-bridge, ros-indigo-message-filters, ros-indigo-openni-wrapper, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-scitos-description, ros-indigo-scitos-msgs, ros-indigo-scitos-ptu, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-strands-movebase, ros-indigo-tf, ros-indigo-topic-republisher, strands-morse-simulator
+Description: The strands_morse package
