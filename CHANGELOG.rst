@@ -19,6 +19,11 @@ Changelog for package strands_morse
 * Switch to system python3.
 * Contributors: Chris Burbridge
 
+0.1.15 (2016-06-06)
+-------------------
+* Adding camera topics to launch
+* Contributors: Nick Hawes
+
 0.1.14 (2016-06-06)
 -------------------
 
