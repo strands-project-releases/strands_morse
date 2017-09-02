@@ -1,3 +1,26 @@
+## strands_morse (kinetic) - 0.2.1-0
+
+The packages in the `strands_morse` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -t kinetic -r kinetic strands_morse` on `Sat, 02 Sep 2017 19:11:38 -0000`
+
+The `strands_morse` package was released.
+
+Version of package(s) in repository `strands_morse`:
+
+- upstream repository: https://github.com/strands-project/strands_morse.git
+- release repository: https://github.com/strands-project-releases/strands_morse.git
+- rosdistro version: `0.2.0-0`
+- old version: `0.2.0-0`
+- new version: `0.2.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.6`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## strands_morse (kinetic) - 0.2.0-0
 
 The packages in the `strands_morse` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -n -t kinetic -r kinetic strands_morse` on `Fri, 30 Jun 2017 13:04:53 -0000`
