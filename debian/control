@@ -1,0 +1,12 @@
+Source: ros-melodic-strands-morse
+Section: misc
+Priority: extra
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, libpcl-dev, python-opencv, ros-melodic-catkin, ros-melodic-cv-bridge, ros-melodic-message-filters, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: http://www.strands-project.eu
+Standards-Version: 3.9.2
+
+Package: ros-melodic-strands-morse
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8, morse-simulator, python-opencv, ros-melodic-cv-bridge, ros-melodic-message-filters, ros-melodic-openni-wrapper, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-scitos-description, ros-melodic-scitos-msgs, ros-melodic-scitos-ptu, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-strands-movebase, ros-melodic-tf, ros-melodic-topic-republisher
+Description: The strands_morse package
