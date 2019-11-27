@@ -1,3 +1,26 @@
+## strands_morse (melodic) - 0.2.3-1
+
+The packages in the `strands_morse` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -n -t melodic -r melodic strands_morse` on `Wed, 27 Nov 2019 11:10:18 -0000`
+
+The `strands_morse` package was released.
+
+Version of package(s) in repository `strands_morse`:
+
+- upstream repository: https://github.com/strands-project/strands_morse.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## strands_morse (kinetic) - 0.2.3-0
 
 The packages in the `strands_morse` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y --no-web -t kinetic -r kinetic strands_morse` on `Sun, 30 Sep 2018 14:24:20 -0000`
